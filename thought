@@ -1,0 +1,3 @@
+An extension that is default disabled and 
+when enabled watches files in the dist 
+folder and when saved sends to the websocket for update
