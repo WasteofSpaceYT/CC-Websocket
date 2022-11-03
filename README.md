@@ -3,7 +3,7 @@ This is the GitHub repository for the CC-Websocket LUA client that works in conj
 
 Put this client on your ComputerCraft computer by pasting this command into the computer:
 ```
-wget https://raw.githubusercontent.com/WasteofSpaceYT/CC-Websocket/main/cc-websocket.lua?token=GHSAT0AAAAAABVYXOPWI47YOERNNR4KY7SCY3DDTOQ cc-websocket.lua
+wget https://raw.githubusercontent.com/WasteofSpaceYT/CC-Websocket/main/cc-websocket.lua cc-websocket.lua
 ```
 
 Then run the client by typing `cc-websocket` into the computer.
