@@ -8,4 +8,6 @@ wget https://raw.githubusercontent.com/WasteofSpaceYT/CC-Websocket/main/cc-webso
 
 Then run the client by typing `cc-websocket` into the computer.
 
+* Use the `-p` or `-port` flag to specify the websocket port. The default is 3000. Ex. `cc-websocket -p 3000`
+
 * Make sure the VSCode extension is installed and running.

@@ -1,5 +1,13 @@
 --[[ Generated with https://github.com/TypeScriptToLua/TypeScriptToLua ]]
-ws = http.websocket("ws://localhost:3000")
+local arg1, arg2 = ...
+if arg1 == "-p" or arg1 == "-port" then
+    if tonumber(arg2) then
+        port = arg2
+    else
+        port = "3000"
+    end
+end
+ws = http.websocket("ws://localhost:" + port)
 while true do
         local event = os.pullEventRaw("terminate")
         if event == "terminate" then 
