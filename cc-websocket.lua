@@ -1,4 +1,3 @@
---[[ Generated with https://github.com/TypeScriptToLua/TypeScriptToLua ]]
 local arg1, arg2 = ...
 if arg1 == "-p" or arg1 == "-port" then
     if tonumber(arg2) then
